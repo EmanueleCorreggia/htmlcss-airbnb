@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  background-image: url(../img/avngers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+.box {
+  position: relative;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+.box1 {
+  background-image: url(../img/ultron.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box2 {
+  background-image: url(../img/infinity.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box3 {
+  background-image: url(../img/endgame.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+  font-size: 40px;
+  text-shadow: 3px  3px 4px red;
+  }
+.box:hover {
+  cursor: pointer;
+}
+.box:hover .opacity {
+  display: none;
+}
+.opacity  {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.1)
+}
+footer {
+  color: red;
+  font-size: 25px;
+}
+.marvel {
+  width: 100px;
+}
+.nav {
+  height: 90px;
+  width:  100%;
+  background-color: black;
+}
+img {
+  width: 90px;
+  vertical-align: middle;
+}
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  line-height: 70px;
+  text-align: center;
+  background-color: black;
+  z-index: 1
+}
+ul.menu li:hover{
+background-color: red;
+}
+ul.menu li.active {
+  border-bottom: 2px solid green;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration:
+}
+a {
+  color: white;
+  text-decoration: none;
+}
